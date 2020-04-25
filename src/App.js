@@ -16,28 +16,28 @@ function App() {
     api.post('repositories',{
       title: `Conceitos Node - ${Date.now()}`,
       url: "https://github.com/Vimai/conceitos-nodejs",
-      techs: "Node"
+      techs: ['Node', 'React']
     }).then(response => {
       setRepositories([...repositories , response.data]);
     });
   }
 
   function handleRemoveRepository(id) {
-    api.delete(`repositories/${repositories[id].id}`).then(response => {
-      let repo = [...repositories];
-      repo.splice(id, 1)
-      setRepositories(repo);
+    api.delete(`repositories/${id}`).then(response => {
+      setRepositories(repositories.filter(
+        repository => repository.id != id
+      ));
     });
   }
 
   return (
     <div>
       <ul data-testid="repository-list">
-        {repositories.map((repositorie, index) => {
+        {repositories.map((repositorie) => {
           return (
             <li key={repositorie.id}>
                 {repositorie.title}
-                <button onClick={() => handleRemoveRepository(index)}>
+                <button onClick={() => handleRemoveRepository(repositorie.id)}>
                   Remover
                 </button>
             </li>
