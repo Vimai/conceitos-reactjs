@@ -1,4 +1,4 @@
-<h1 align="center">Welcome to Conceitos ReactKJ 👋</h1>
+<h1 align="center">Welcome to Conceitos ReactJS 👋</h1>
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-0.1.0-blue.svg?cacheSeconds=2592000" />
   <a href="https://twitter.com/viniciusimai" target="_blank">
@@ -32,7 +32,7 @@ yarn run test
 
 * Twitter: [@viniciusimai](https://twitter.com/viniciusimai)
 * Github: [@vimai](https://github.com/vimai)
-* LinkedIn: [@https:\/\/www.linkedin.com\/in\/vinicius-imai\/](https://linkedin.com/in/https:\/\/www.linkedin.com\/in\/vinicius-imai\/)
+* LinkedIn: [@https:\/\/www.linkedin.com\/in\/vinicius-imai\/](vinicius-imai)
 
 ## Show your support
 
