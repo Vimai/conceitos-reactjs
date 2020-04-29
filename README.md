@@ -32,7 +32,7 @@ yarn run test
 
 * Twitter: [@viniciusimai](https://twitter.com/viniciusimai)
 * Github: [@vimai](https://github.com/vimai)
-* LinkedIn: [@https:\/\/www.linkedin.com\/in\/vinicius-imai\/](vinicius-imai)
+* LinkedIn: [@vinicius-imai](https://www.linkedin.com/in/vinicius-imai/)
 
 ## Show your support
 
