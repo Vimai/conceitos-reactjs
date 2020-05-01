@@ -7,7 +7,7 @@
 </p>
 
 > Primeiro projeto usando reactJS, treinando habilidades no react.
-  Aplicação busca de uma lista de repositórios de uma API e as exibe em tela. A aplicação também posibilita a inserção e remoção de repositórios.
+  A aplicação busca de uma lista de repositórios de uma API e as exibe em tela, também posibilita a inserção e remoção de repositórios utilando a API.
 
 ## Tecnologias
 
