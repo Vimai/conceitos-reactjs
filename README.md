@@ -11,7 +11,7 @@
 
 ## Tecnologias
 
-Aplicação construida utilizando React. Utilizando Babel, Webpack.
+Aplicação construida utilizando React, Babel, Webpack.
 
 
 ## Install
